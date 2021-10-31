@@ -1,14 +1,40 @@
 nav {
-    display: flex;
+    border: solid grey;
+    overflow: hidden;
    
 }
+.our {
+
+}
+.navbar {
+   
+}
+.our2 {
+    color: rgb(247, 247, 36);
+}
+.logo {
+   float: left;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 ul {
-    display: inline-flex;
-    overflow: hidden;
+    font-size: 45px;
+    float: right;
+    margin-top: 0px;
+}
+li {
+    display: inline-block;
+    padding: 15px 30px;
+    color: brown;
+    float: left;
 }
 .motto {
     display: flex;
     border: yellow;
+    width: 200;
+    border: hidden;
     }
     .motto .open {
         border: solid grey;
@@ -27,7 +53,7 @@ ul {
     padding: 60px;
     border-radius: 25px;
     width: 400px;
-    text-align: center;
+    text-align: left;
     height: 300px;  
 }
 .Why-Us {
@@ -40,13 +66,35 @@ div .Why-Us {
 }
 .Double {
     background-color: thistle;
+    display: flex;
+   
 }
+.doublep {
+    border-width: medium;
+ 
+    padding: 0px;
+    border-radius: 0;
+    width: 380px;
+    text-align: center;
+    border: solid grey;
+}
+.arrange {
+    border-width: medium;
+    margin: 0;
+    padding: 20px;
+    border-radius: 0;
+    width: 575px;
+    text-align: center;
+    border: solid grey; 
+}
+
 body{
     font-family: 'poppins';
     width: auto;
+    text-align: center;
 }
 .Us {
-    background-color: w;
+    background-color: white;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -57,7 +105,7 @@ body{
     margin: 10px;
     padding: 60px;
     border-radius: 25px;
-    width: 600px;
+    width: 575px;
     text-align: center;
 }
 .still {
@@ -66,7 +114,7 @@ body{
     margin: 10px;
     padding: 60px;
     border-radius: 25px;
-    width: 600px;
+    width: 575px;
     text-align: center;
 }
 .still2 {
@@ -75,20 +123,21 @@ body{
     margin: 10px;
     padding: 60px;
     border-radius: 25px;
-    width: 600;
+    width: 575px;
     tesxt-algn: center;
 }
-
+.main {
+    display: flex;
+}
 .close {
      display: flex;
 }
 .open {
     display: flex;
-    border: solid;
 }
 .right {
     display: flex;
-    border: solid;
+   
     background-color: yellow;
 }
 .first {
@@ -177,4 +226,25 @@ body{
 }
 .phone {
     width: auto;
+}
+.open {
+    display: inline;
+}
+.below {
+    font-weight: 700;
+    font-style: oblique;
+    font-size: x-large;
+}
+.nav2 {
+      width: 400px;
+      float: left;
+      height: 70px;
+}
+.sub {
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+.yellow {
+    color: rgb(247, 247, 36);
 }
