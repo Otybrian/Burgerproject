@@ -59,10 +59,12 @@ li {
 .Why-Us {
     border: yellow;
     margin: 5;
+
 }
 div .Why-Us {
     border-radius:0%;
     background-color: yellow;
+    font-style: italic;
 }
 .Double {
     background-color: thistle;
@@ -247,4 +249,8 @@ body{
 }
 .yellow {
     color: rgb(247, 247, 36);
+}
+
+.menu {
+    font-weight: 900;
 }
