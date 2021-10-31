@@ -1,12 +1,85 @@
-
 nav {
-    background-color: white;
-    width: 100%
-    overflow: auto;
+    display: flex;
+   
 }
-body {
-    background-color: white;
+ul {
+    display: inline-flex;
+    overflow: hidden;
 }
-img {
-
+.motto {
+    display: inline-flex;
+    border: yellow;
+    }
+.Why-Us {
+    border: yellow;
+    margin: 5;
+}
+div .Why-Us {
+    border-radius:0%;
+    background-color: yellow;
+}
+.Double {
+    background-color: thistle;
+}
+body{
+    font-family: 'poppins';
+}
+.Us {
+    background-color: w;
+    display: flex;
+    justify-content: center;
+}
+ .Us .Still {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 600px;
+    text-align: center;
+}
+.still {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 600px;
+    text-align: center;
+}
+.still2 {
+    border:solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 600;
+    tesxt-algn: center;
+}
+.close {
+     display: flex;
+}
+.open {
+    display: flex;
+    border: solid;
+}
+.right {
+    display: flex;
+    border: solid;
+    background-color: yellow;
+}
+.first {
+    border: solid;
+}
+.second {
+    border: solid;
+}
+.third {
+    border: solid;
+}
+.images1 {
+    display: flex;
+    border: solid;
+    width: 400px;
+    text-align: center;
 }
