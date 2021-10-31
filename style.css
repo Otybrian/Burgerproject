@@ -7,9 +7,29 @@ ul {
     overflow: hidden;
 }
 .motto {
-    display: inline-flex;
+    display: flex;
     border: yellow;
     }
+    .motto .open {
+        border: solid grey;
+        border-width: medium;
+        margin: 10px;
+        padding: 60px;
+        border-radius: 25px;
+        width: 400px;
+        text-align: center;
+        height: 300px;   
+    }
+.motto .right {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 400px;
+    text-align: center;
+    height: 300px;  
+}
 .Why-Us {
     border: yellow;
     margin: 5;
@@ -23,11 +43,13 @@ div .Why-Us {
 }
 body{
     font-family: 'poppins';
+    width: auto;
 }
 .Us {
     background-color: w;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
  .Us .Still {
     border: solid grey;
@@ -56,6 +78,7 @@ body{
     width: 600;
     tesxt-algn: center;
 }
+
 .close {
      display: flex;
 }
@@ -77,9 +100,81 @@ body{
 .third {
     border: solid;
 }
-.images1 {
+.Burgers .images1 {
+    background-color: w;
     display: flex;
-    border: solid;
-    width: 400px;
+    justify-content: center;
     text-align: center;
+}
+.Burgers .images2 {
+    background-color: w;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+.images1 .first {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+.images1 .second {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+.images1 .third {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px; 
+}
+.images2 .fourth {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+.images2 .fifth {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+.images2 .sixth {
+    border: solid grey;
+    border-width: medium;
+    margin: 10px;
+    padding: 60px;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    height: 300px;
+}
+.menu {
+    text-align: center;
+}
+.phone {
+    width: auto;
 }
