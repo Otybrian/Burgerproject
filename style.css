@@ -60,7 +60,7 @@ li {
 .Why-Us {
     border: yellow;
     margin: 5;
-
+    ;
 }
 div .Why-Us {
     border-radius:0%;
@@ -141,7 +141,8 @@ body{
 .right {
     display: flex;
    
-    background-color: yellow;
+    background-color: #F6B400
+    ;
 }
 .first {
     border: solid;
