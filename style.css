@@ -1,7 +1,7 @@
 nav {
     border: solid grey;
     overflow: hidden; 
-    font-size: 300;
+    font-size: 200;
 }
 .navbar {
     float: left;
@@ -264,4 +264,7 @@ body{
 .nav2 {
     display: inline;
     font-size: 300;
+}
+.button {
+    background-color: #F6B400;
 }
