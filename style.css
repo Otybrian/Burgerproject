@@ -1,17 +1,16 @@
 nav {
     border: solid grey;
-    overflow: hidden;
-   
+    overflow: hidden; 
+}
+.navbar {
+    float: left;
 }
 body {
 width: 1000px;
 background-color: #E1EBE6;
 }
-.navbar {
-   
-}
 .our2 {
-    color: rgb(247, 247, 36);
+    color: #F6B400;
 }
 .logo {
    float: left;
@@ -19,6 +18,7 @@ background-color: #E1EBE6;
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 ul {
     font-size: 45px;
@@ -32,12 +32,13 @@ li {
     float: left;
 }
 .motto {
-    display: flex;
-    border: yellow;
+    display:flex;
+    border: #F6B400;
     width: 200;
     border: hidden;
+    margin: 0px;
     }
-    .motto .open {
+ .open {
         border: solid grey;
         border-width: medium;
         margin: 10px;
@@ -58,13 +59,13 @@ li {
     height: 300px;  
 }
 .Why-Us {
-    border: yellow;
+    border: #F6B400;
     margin: 5;
     ;
 }
 div .Why-Us {
     border-radius:0%;
-    background-color: yellow;
+    background-color: #F6B400;
     font-style: italic;
 }
 .Double {
@@ -79,7 +80,7 @@ div .Why-Us {
     border-radius: 0;
     width: 380px;
     text-align: center;
-    border: solid grey;
+    
 }
 .arrange {
     border-width: medium;
@@ -136,7 +137,7 @@ body{
      display: flex;
 }
 .open {
-    display: flex;
+    
 }
 .right {
     display: flex;
@@ -153,13 +154,13 @@ body{
 .third {
     border: solid;
 }
-.Burgers .images1 {
+.images1 {
     background-color: w;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.Burgers .images2 {
+.images2 {
     background-color: w;
     display: flex;
     justify-content: center;
@@ -250,7 +251,10 @@ body{
     font-weight: bold;
 }
 .yellow {
-    color: rgb(247, 247, 36);
+    color: #F6B400;
+    font-size: x-large;
+    font-weight: bold
+    font-style: oblique;
 }
 
 .menu {
