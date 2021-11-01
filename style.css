@@ -1,6 +1,7 @@
 nav {
     border: solid grey;
     overflow: hidden; 
+    font-size: 300;
 }
 .navbar {
     float: left;
@@ -259,4 +260,8 @@ body{
 
 .menu {
     font-weight: 900;
+}
+.nav2 {
+    display: inline;
+    font-size: 300;
 }
