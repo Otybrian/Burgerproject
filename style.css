@@ -267,4 +267,5 @@ body{
 }
 #awesome {
     display: flex;
+    float: left;
 }
