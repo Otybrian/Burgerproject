@@ -269,3 +269,6 @@ body{
     display: flex;
     float: left;
 }
+.ex {
+    color: #F6B400;
+}
