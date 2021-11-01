@@ -3,8 +3,9 @@ nav {
     overflow: hidden;
    
 }
-.our {
-
+body {
+width: 1000px;
+background-color: #E1EBE6;
 }
 .navbar {
    
